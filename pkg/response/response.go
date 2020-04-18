@@ -10,7 +10,7 @@ type ApiError struct {
 	Message       string `json:"message"`
 }
 
-// accountCreateResponse is used to package the response back to the client in a uniform way.
+// Payload is used to package the response back to the client in a uniform way.
 type Payload struct {
 	Status   string     `json:"status"`
 	Code     int        `json:"code"`
