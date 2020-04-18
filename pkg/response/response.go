@@ -16,5 +16,5 @@ type Payload struct {
 	Code     int        `json:"code"`
 	Messages []string   `json:"messages"`
 	Data     DataReader `json:"data"`
-	Errors   []apiError `json:"errors"`
+	Errors   []ApiError `json:"errors"`
 }
